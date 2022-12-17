@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <title>Formulário exercicio</title>
+</head>
+<body>
+    <div class="cabecalho">
+        <h4>Página de formulário simples</h4>
+    </div>
+
+    <div class="form"> <!--FORMULARIO-->
+        <img src="forms.png" alt="Imagem do Formulário">
+        <form action="/sucesso.html" method="get">
+            <input type="text" name="nome" placeholder="Ex: Julia Cavalcante" autocomplete="off"> <!--autocomplete off é para nao sugerir email nem nome no navegador-->
+            <input type="email" name="email" placeholder="Ex: seuemail@email.com" autocomplete="off">
+            <textarea placeholder="Sua mensagem..."></textarea>
+            <input type="submit" value="Enviar!">
+            <input type="reset" value="Resetar formulário">
+        </form>
+    </div>
+</body>
+</html>
